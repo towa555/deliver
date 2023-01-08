@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 10px;
+}
+body{
+    background-color: rgb(70, 126, 175);
+}
+
+.center{
+@apply flex justify-center items-center text-xl
+}
+.link{
+@apply   text-white
+}
